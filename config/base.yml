@@ -165,8 +165,8 @@ Layout/FirstHashElementIndentation:
 
 Layout/HashAlignment:
   Enabled: true
-  EnforcedHashRocketStyle: key
-  EnforcedColonStyle: key
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
   EnforcedLastArgumentHashStyle: always_inspect
 
 Layout/HeredocIndentation:
@@ -1155,7 +1155,7 @@ Style/TrailingCommaInBlockArgs:
 
 Style/TrailingCommaInHashLiteral:
   Enabled: true
-  EnforcedStyleForMultiline: no_comma
+  EnforcedStyleForMultiline: comma
 
 Style/TrailingMethodEndStatement:
   Enabled: true
