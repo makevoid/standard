@@ -1186,7 +1186,7 @@ Style/TrivialAccessors:
     - to_sym
 
 Style/UnlessElse:
-  Enabled: true
+  Enabled: false
 
 Style/UnpackFirst:
   Enabled: true
