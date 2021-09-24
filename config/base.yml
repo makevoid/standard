@@ -284,7 +284,7 @@ Layout/SpaceBeforeSemicolon:
 
 Layout/SpaceInLambdaLiteral:
   Enabled: true
-  EnforcedStyle: require_no_space
+  EnforcedStyle: require_space
 
 Layout/SpaceInsideArrayLiteralBrackets:
   Enabled: true
@@ -302,8 +302,8 @@ Layout/SpaceInsideBlockBraces:
 
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: true
-  EnforcedStyle: no_space
-  EnforcedStyleForEmptyBraces: no_space
+  EnforcedStyle: space
+  EnforcedStyleForEmptyBraces: space
 
 Layout/SpaceInsideParens:
   Enabled: true
@@ -902,7 +902,7 @@ Style/KeywordParametersOrder:
 
 Style/LambdaCall:
   Enabled: true
-  EnforcedStyle: call
+  EnforcedStyle: braces
 
 Style/LineEndConcatenation:
   Enabled: true
